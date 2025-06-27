@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "player_img": "https://images.indianexpress.com/2025/04/VIRAT-KOHLI-IPL-2025.jpg",
+    "player_name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 250000
+  },
+  {
+    "id": 2,
+    "player_img": "https://miro.medium.com/v2/resize:fit:1200/1*F_QmbFE81UhaXiDqFoWMQQ.jpeg",
+    "player_name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 220000
+  },
+  {
+    "id": 3,
+    "player_img": "https://ichef.bbci.co.uk/ace/standard/819/cpsprodpb/d803/live/89df5e80-229a-11ef-81fb-6508a3d9334d.jpg",
+    "player_name": "Pat Cummins",
+    "country": "Australia",
+    "role": "Bowler",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 180000
+  },
+  {
+    "id": 4,
+    "player_img": "https://blogs.a-sports.tv/wp-content/uploads/2024/06/rashid-khan-on-brian-lara-afghanistan-prediction.jpg",
+    "player_name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Leg spin",
+    "price": 200000
+  },
+  {
+    "id": 5,
+    "player_img": "https://cdn.siasat.com/wp-content/uploads/2023/09/kane-Williamson.jpg",
+    "player_name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 210000
+  },
+  {
+    "id": 6,
+    "player_img": "https://crictoday.com/wp-content/uploads/2023/03/Untitled-design-12.jpg",
+    "player_name": "Ben Stokes",
+    "country": "England",
+    "role": "Batsman",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 240000
+  },
+  {
+    "id": 7,
+    "player_img": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1744889486620_babar_azam.jpg?type=mq",
+    "player_name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 230000
+  },
+  {
+    "id": 8,
+    "player_img": "https://e0.365dm.com/15/08/2048x1152/Mitchell-Starc-Australia-2015_3344051.jpg?20150830130102",
+    "player_name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast",
+    "price": 190000
+  },
+  {
+    "id": 9,
+    "player_img": "https://thereport.live/media/imgAll/2024November/sh-(1)-20241130092258.jpg",
+    "player_name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox",
+    "price": 205000
+  },
+  {
+    "id": 10,
+    "player_img": "https://c.ndtvimg.com/2024-11/6vgkqgjg_jasprit-bumrah-bcci-twitter_625x300_22_November_24.jpg?im=FitAndFill,algorithm=dnn,width=806,height=605",
+    "player_name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 225000
+  },
+  {
+    "id": 11,
+    "player_img": "https://www.zapcricket.com/cdn/shop/articles/WhatsApp_Image_2024-07-24_at_14.38.38.webp?v=1721812636",
+    "player_name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm leg spin",
+    "price": 215000
+  }
+]
