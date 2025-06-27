@@ -1,10 +1,10 @@
 import { FaUser } from "react-icons/fa";
 import { FaFlag } from "react-icons/fa6";
 
-const Player = ({player}) => {
+const Player = ({player,handleByePlayer}) => {
     const {player_img,player_name,country,role,batting_style,bowling_style,price} = player
     return (
-        <div className='w-[350px] md:w-[400px] h-[500px] p-5 border-2 border-[#e7e7e7] rounded-xl mx-auto'>
+        <div className='w-[350px] lg:w-[400px] h-[500px] p-5 border-2 border-[#e7e7e7] rounded-xl mx-auto'>
             <img className='rounded-xl mb-5 w-[350] h-[200px] bg-cover bg-center bg-no-repeat' src={player_img} alt="" />
             <div className="space-y-3">
                 <div className="flex items-center gap-4 text-[20px] font-semibold text-[#424242]">
@@ -27,7 +27,9 @@ const Player = ({player}) => {
                 </div>
                 <div className="flex justify-between items-center">
                     <h5 className="font-semibold">Price:${price}</h5>
-                    <button className="py-2 px-4 border-2 border-[#e7e7e7] rounded-xl tex-[14px]
+                    <button
+                    onClick={() => handleByePlayer(player)}
+                    className="py-2 px-4 border-2 border-[#e7e7e7] rounded-xl tex-[14px]
                     hover:bg-[#e7fe29] hover:border-[#d2e727]">Choose Player</button>
                 </div>
             </div>
