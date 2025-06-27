@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = () => {
+const Banner = ({handleCoin}) => {
   return (
     <div
       className="max-w-[1280px] mx-auto h-[545px] rounded-xl bg-black  bg-[url(/images/bg-shadow.png)]
@@ -18,7 +18,7 @@ const Banner = () => {
         </p>
 
         <div className="flex justify-center items-center">
-          <button className="px-6 py-3 rounded-xl border-2 border-white text-black font-bold text-lg shadow-md bg-gradient-to-r from-pink-300 via-yellow-300 to-yellow-400 hover:from-pink-400 hover:to-yellow-500 transition duration-300">
+          <button onClick={handleCoin} className="px-6 py-3 rounded-xl border-2 border-white text-black font-bold text-lg shadow-md bg-gradient-to-r from-pink-300 via-yellow-300 to-yellow-400 hover:from-pink-400 hover:to-yellow-500 transition duration-300">
             Claim Free Credit
           </button>
         </div>
