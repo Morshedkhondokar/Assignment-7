@@ -1,4 +1,11 @@
+import { useState } from "react";
+
 const Form = () => {
+  const [email, setEmail] = useState("")
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setEmail("");
+  }
   return (
     <div
       className="max-w-[1280px] mx-auto h-[350px] bg-[rgba(255, 255, 255, 0.15)]
@@ -16,11 +23,15 @@ const Form = () => {
           Get the latest updates and news right in your inbox!
         </p>
         <div>
-          <form action="" className="flex flex-col md:flex-row items-center gap-3">
+          <form 
+          onSubmit={handleSubmit}
+          className="flex flex-col md:flex-row items-center gap-3">
             <input
               className="w-[300px] md:w-[400px] py-3 px-4 md:px-7 border-2 rounded-xl"
               type="email"
               placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <button
               type="submit"

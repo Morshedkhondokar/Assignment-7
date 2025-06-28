@@ -1,4 +1,13 @@
+import { useState } from "react";
+
+
 const Footer = () => {
+   const [email, setEmail] = useState("");
+    const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Email submitted:", email);
+    setEmail("");
+  };
   return (
     <div className="h-[1000px] md:h-[650px] bg-black pt-[250px]">
       <div className="max-w-[1280px] mx-auto h-[650px] px-2  md:h-[320px]">
@@ -26,9 +35,12 @@ const Footer = () => {
           <div>
             <h3 className="font-bold">Subscribe</h3>
             <p className="w-[250px] text-[#9b9da3] mb-2">Subscribe to our newsletter for the latest updates.</p>
-            <form action="" >
+            <form action=""  onSubmit={handleSubmit}>
               <div className="flex ">
-                <input className="p-3 md:px-6 md:py-3 rounded-l-xl" type="email" placeholder="enter your email" />
+                <input className="text-black p-3 md:px-6 md:py-3 rounded-l-xl outline-none" type="email" placeholder="enter your email" 
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                />
               <button
                 type="submit"
                 className="px-6 py-3 rounded-r-xl  text-black font-bold text-lg shadow-md bg-gradient-to-r from-pink-300 via-yellow-300 to-yellow-400 hover:from-pink-400 hover:to-yellow-500 transition duration-300"
