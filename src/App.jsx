@@ -4,7 +4,9 @@ import Navbar from "./Components/Navbar/Navbar"
 import AvailableBtn from "./Components/AvailableBtns/AvailableBtn";
 import { toast, ToastContainer } from "react-toastify";
 import Players from "./Components/Players/Players";
-import Selected from "./Selected/Selected";
+import Selected from "./Components/Selected/Selected";
+import Form from "./Components/Form/Form";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -76,7 +78,8 @@ function App() {
       handleSelectedActiveBtn={handleSelectedActiveBtn}/>
      }
     
-    
+    <Form></Form>
+    <Footer></Footer>
      <ToastContainer position="top-center"></ToastContainer>
     </>
   )

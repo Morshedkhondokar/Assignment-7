@@ -4,7 +4,7 @@ const Selected = ({selectedPlayers,handleDeletePlayer,handleSelectedActiveBtn}) 
     return (
          <div className="max-w-[1280px] my-10 mx-auto space-y-4">
       {selectedPlayers.length === 0 ? (
-        <p className="flex justify-center items-center text-2xl h-[300px] text-gray-500">
+        <p className="flex justify-center items-center text-2xl h-[200px] text-gray-500">
             No players selected.</p>
       ) : (
         selectedPlayers.map((player, i) => (
